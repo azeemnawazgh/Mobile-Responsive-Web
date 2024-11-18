@@ -1,5 +1,10 @@
-export default function name(){
+import HeroSection from "./components/HeroSection";
+import FeaturedProduct from "./components/FeaturedProduct";
+export default function main (){
   return(
-    <h1 className="text-center text-9xl">MY NAME IS AZEEM</h1>
+    <div>
+    <HeroSection/>
+    <FeaturedProduct/>
+    </div>
   )
-};
+}
